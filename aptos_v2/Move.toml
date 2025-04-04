@@ -1,0 +1,16 @@
+[package]
+name = "On-chain-global-school-directory-v2"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x4eea5cb8852715b5a08f045473508edc20129f5f974749c3d88cdd82d490f511"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies] 
